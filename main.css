@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  
+    background: #171515;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.card-container{
+    width:280px;
+    height: 400px;
+    background: #FFF;
+    border-radius: 6px;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upper-container{
+    height: 140px;
+    background: #7F00FF;
+}
+
+.image-container{
+    background: #7F00FF;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;  
+    padding: 1px;
+    transform: translate(100px, 100px);
+}
+.image-container img{
+  
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;   
+}
+.lower-container{
+    height: 90px;
+    background: #fff;
+    padding: 10px;
+    padding-top: 40px;
+    text-align: center;
+}
+.lower-container h3,h4{
+    box-sizing: border-box;
+    line-height: .4;
+    font-weight: lighter;
+}
+.lower-container h4,p{
+    font-size: 14px;
+    color: grey;
+    margin-bottom:30px;
+}
+h1{
+    color: white;
+}
+
+input[type=text]{
+    width:15%;
+    border:2px solid #aaa;
+    border-radius: 4px;
+    margin:8px 0;
+    outline: none;
+    padding:8px;
+    box-sizing: border-box;
+    transition:.3s;
+
+}
+ input[type=text]:focus{
+     border-color: dodgerblue;
+     box-shadow: 0 0 8px 0 dodgerblue;
+ }
+
+.btn{
+    padding: 12px 20px;
+    background: #7F00FF;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+}
+.btn:hover{
+    background: transparent;
+    color: #7F00FF;
+    border: 2px solid #7F00FF;
+}
+ .txtbox{
+    font-family: "Roboto", sans-serif;
+    font-size:16px;
+    font-weight:lighter;
+}
